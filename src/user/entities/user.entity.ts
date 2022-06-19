@@ -1,5 +1,4 @@
 import { Column, Entity, OneToOne } from "typeorm";
-import { ExclusionMetadata } from "typeorm/metadata/ExclusionMetadata";
 import { BaseEntity } from "../../config/base_entity";
 import { CustomerEntity } from "../../customer/entities/customer.entity";
 
